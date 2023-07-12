@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> the div element</h1>
+    <div style="background-color: blueviolet; ">
+       <h1>Ernakulam</h1>
+    </div>
+    <div style="background-color: aqua; ">
+        <h1>Thrissur</h1>
+    </div>
+    <div style="background-color: aquamarine; ">
+        <h1>Kottayam</h1>
+    </div>
+    <h2> Iframe</h2>
+    <iframe src="https://www.wikipedia.org/"  frameborder="3" width="100%" height="33%"></iframe>
+    <h2>javascript html dom</h2>
+    <p>finding html elements by class name.</p>
+    <p class="intro">hello world</p>
+    <p class="intro">this example demonstrates the<b>getElementByClassName</b></p>
+    <button onclick="c1()">click</button>
+    
+    <header>
+        <h2>Web Development</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">html</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">bootstrap</a></li>
+            </ul>
+        </nav>
+    </section>
+    <h2>Javascript</h2>
+    <button onclick="myfunction()">push</button>
+    <button onclick="myfunction()">pop</button>
+    <script>
+        const x=document.getElementByClassName("intro");
+        document.getElementById("demo").innerHTML=
+        'the first paragraph(index 0) with class="intro" is : +x[0].innerHTML;'
+        </script>
+        var arr=("bmw","benz","audi","volvo");
+        document.getElementById("para").innerHTML=arr;
+        function push(){
+            arr[5]="jaguar";
+            document.getElementById("para").innerHTML=arr;
+        }
+        var x=0;
+        function pop(){
+            delete arr[x];
+            document.getElementById("para").innerHTML=arr;
+            x=x+1;
+            console.log(x);
+        }
+        let x=5;
+        let y=6;
+        let z=x+y;
+        document.write("The value of z is:"+z);
+        const price1=5;
+        const price2=6;
+        let total=price1+price2;
+        var a="2";
+        var b=2;
+        if(a===b){
+            alert("Both are equal")
+        }
+        else {  
+            alert("Both are not equal")
+        }
+    </script>
+</body>
+</html>

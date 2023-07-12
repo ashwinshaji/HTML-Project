@@ -1,0 +1,44 @@
+body{
+    background-color:powderblue;
+}
+
+h1 {
+    color:blue;
+}
+p{
+    color:red;
+}
+table{
+    border:1px solid red;
+    border-collapse:collapse;
+    background-color:azure ;
+}
+td{
+    text-align:center;
+}
+.Chrome{
+    background-color: aquamarine;
+
+}
+.Mozilla{
+    background-color: blueviolet;
+}
+.Edge{
+    background-color: brown;
+}
+.container{
+    height:20px;
+    align-content:center;
+    background-color: bisque;
+}
+
+.container{
+        height:20px;
+        align-content:center;
+        background-color: rgb(172, 104, 21);
+}
+.row{
+    height:20px;
+    color:blue;
+    background-color: brown;
+}
